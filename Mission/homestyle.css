@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-attachment: ; /* Keeps the background fixed when scrolling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Rest of your styles */
+
+/* Header Section */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4b400;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://source.unsplash.com/1600x900/?fashion,beauty');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-content .btn {
+    padding: 10px 20px;
+    background-color: #f4b400;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.hero-content .btn:hover {
+    background-color: #e69500;
+}
+/* Featured about section */
+.about-section {
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Featured Blogs Section */
+.featured-blogs {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.featured-blogs h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-card h3 {
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+.blog-card p {
+    margin: 0 10px 10px;
+    color: #666;
+}
+
+.blog-card .read-more {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.blog-card .read-more:hover {
+    background-color: #0056b3;
+}
+/* featured contact section */
+.contact-section {
+    text-align: center;
+}
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
